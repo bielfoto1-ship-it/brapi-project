@@ -1,0 +1,13 @@
+{
+  "name": "brapi-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Integração com a API brapi.dev (v2) para dados do mercado financeiro brasileiro",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test:quote": "node src/testQuote.js"
+  }
+}
